@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/umi
+DEVICE_PATH := device/xiaomi/cmi
 
 # Inherit from sm8250-common
 -include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := umi
+TARGET_OTA_ASSERT_DEVICE := cmi
 
 # Prebuilt Core
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
